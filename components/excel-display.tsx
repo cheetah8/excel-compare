@@ -34,7 +34,7 @@ export function ExcelDisplay({ compareResult, compareDetail }: props) {
           <Sparkles className={"w-10 h-10"} />
           <div>
             برای شروع لطفا روی دکمه{"  "}
-            <span className={"font-bold"}>"مقایسه فایل ها کلیک کنید"</span>
+            <span className={"font-bold"}>مقایسه فایل ها کلیک کنید</span>
           </div>
         </div>
       ) : compareResult === "loading" ? (

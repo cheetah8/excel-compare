@@ -39,7 +39,7 @@ export function ExcelFileList({
       setFirstSelect(excelFiles[0].fileId);
       setSecondSelect(excelFiles[1].fileId);
     }
-  }, [excelFiles]);
+  }, [excelFiles, setFirstSelect, setSecondSelect]);
 
   const pickHandler = (value: string) => {
     selectCounter++;
